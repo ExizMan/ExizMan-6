@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="main.css">
+    <title>sesh6</title>
+</head>
+<body>
+    <header>
+        <div class="container-fluid  bg-blue mt-2">
+          <div class="container-lg">
+            <div class="row justify-content-center mx-1">
+                <div class="pt-1">
+                  <h2>
+                    <span class="m-5 fs-1 align-middle">Task 6</span>
+                  </h2>
+                </div>
+            </div>
+          </div>
+        </div>
+    </header>
+
+    <div class="container-lg border-common border-round my-4">
+        <div class="form">
+            <div class="row">
+                <h3> GIFTstore </h3>
+                <form action="" class="mt-2 mb-4">
+                    <div class="m-2">
+                        Какое количество гифтов? : <br>
+                        <input type="number" name="count" id="count">
+                        
+                    </div>
+                    <div class="m-2">
+                        Выберите издание :
+                        <select name="oil" id="oil">
+                            <option value="item-1">annyversaly</option>
+                            <option value="item-2">year</option>
+                            <option value="item-3">extended</option>
+                        </select>
+                        
+                    </div>
+                    <div class="m-2" id="radios" style="display: block;">
+                        Версия:
+                        <input type="radio" id="contactChoice1" name="oil-type" value="48" checked>
+                        <label for="contactChoice1">earth-616</label>
+
+                        <input type="radio" id="contactChoice2" name="oil-type" value="53">
+                        <label for="contactChoice2">ultimate</label>
+
+                        <input type="radio" id="contactChoice3" name="oil-type" value="59">
+                        <label for="contactChoice3">earth-3</label>
+                        
+                        <input type="radio" id="contactChoice4" name="oil-type" value="65">
+                        <label for="contactChoice4">TRN-666</label>
+                    </div>
+
+                    <div class="m-2" id="checks" style="display: block;">
+                        <input type="checkbox" name="check-1" id="check-1">
+                        <label for="check-1"> Коллекционный стикер </label>
+                        <input type="checkbox" name="check-2" id="check-2">
+                        <label for="check-2"> Без обложки </label>
+                    </div>
+                    <b class="m-2">Итог: <span id="calculate">###</span> рублей</b> <br>
+                    <b class="m-2">Цена за гифт: <span id="cost"></span> рублей</b>
+                    
+                </form>
+            </div>
+        </div>
+    </div>  
+
+    
+    <footer>
+        <div class="container-fluid footer bg-blue">
+            <div class="container-lg">
+              <div class="row justify-content-center mx-1">
+                <div class="col-lg-12 col-xl-10 col-xxl-9 mx-2">
+                    <h2>
+                      Task 6
+
+                    </h2>
+                 </div>
+              </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
